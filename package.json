@@ -1,0 +1,15 @@
+{
+  "name": "TestCypress",
+  "version": "1.0.0",
+  "description": "My test Cypress for Luizalabs",
+  "main": "index.js",
+  "repository": "https://github.com/github.com/josevitormorais",
+  "author": "Jose Vitor Morais Rocha Mundim",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "cypress": "^4.1.0"
+  }
+}
