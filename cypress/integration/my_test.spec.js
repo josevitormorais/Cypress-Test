@@ -1,7 +1,7 @@
 const url = "https://cdpn.io/choskim/fullpage/RLYebL";
 /* declaramos uma constante passando a url onde iremos realizar os nossos testes */
 
-/* usamos o descibre para iniciar o nosso teste passando a sua descrição e dentro dele
+/* usamos o describe para iniciar o nosso teste passando a sua descrição e dentro dele
 passamos a função it que passamos qual funcionalidade esperamos receber*/
 describe("My test for luiza labs", function() {
   it("Long click Event", function() {
