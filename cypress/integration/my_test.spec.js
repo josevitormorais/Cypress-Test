@@ -3,8 +3,8 @@ const url = "https://cdpn.io/choskim/fullpage/RLYebL";
 
 /* usamos o descibre para iniciar o nosso teste passando a sua descrição e dentro dele
 passamos a função it que passamos qual funcionalidade esperamos receber*/
-describre("My test for luiza labs", () => {
-  it("Long click Event", () => {
+describe("My test for luiza labs", function() {
+  it("Long click Event", function() {
     /* com a função visit como proprio nome induz vamos acessar a url que vem da nossa constante */
     cy.visit(url);
     /* pegamos entao a tag iframe que vem de dentro da nossa DOM */
