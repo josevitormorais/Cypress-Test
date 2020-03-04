@@ -1,11 +1,10 @@
-/* declaramos uma constante passando a url onde iremos realizar os nossos testes */
-
 const url = "https://cdpn.io/choskim/fullpage/RLYebL";
+/* declaramos uma constante passando a url onde iremos realizar os nossos testes */
 
 /* na função it passamos a descrição do nosso teste e 
 passamos qual a funcionalidade que esperamos receber */
 
-it("loads", () => {
+it("Long click Event", () => {
   /* com a função visit como proprio nome induz vamos acessar a url que vem da nossa constante */
   cy.visit(url);
   /* pegamos entao a tag iframe que vem de dentro da nossa DOM */
